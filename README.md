@@ -58,3 +58,15 @@ A machine learning web app that recommends similar movies based on a user’s se
 ---
 
 ## 🏗️ Project Structure
+
+movie-recommender/
+├── app.py # Streamlit application
+├── setup.py # Preprocessing & similarity matrix creation
+├── requirements.txt # Python dependencies
+├── .streamlit/
+│ └── secrets.toml # TMDB API key (local)
+├── model/ # Generated after running setup.py
+│ ├── movie_data.pkl
+│ └── movie_list.pkl
+└── README.md
+
